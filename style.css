@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+  }
+  
+  body{
+   
+  }
+  
+  .form-header{
+    background: lightgrey;
+    width: 320px;
+    text-align: center;
+    margin: 30px auto 0;
+    padding: 15px;
+    font-size: 20px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+  }
+  
+  .bar{
+    height: 5px;
+    width: 350px;
+    background: green;
+    margin: auto;
+  }
+  
+  .contact{
+    background: lightgrey;
+    width: 320px;
+    text-align: center;
+    margin: 0 auto 20px;
+    padding: 15px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  
+  #fname, #lname, #email, #message{
+    font-size: 18px;
+    margin-bottom: 20px;
+    padding: 5px;
+    border: none;
+  }
+  
+  .fname, .lname, .email, .message{
+    font-size: 18px;
+  }
+  
+  #message{
+    height: 100px;
+  }
+
+  span{
+      font-size: 14px;
+      color: red;
+  }
+  
+  .send{
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .r-feilds{
+      padding-top: 15px;
+      font-size: 13px;
+  }
+  
+  .send:hover{
+    color: green;
+  }
+  
+  /* alert styles */
+  .fname-alert{
+    margin: -15px 0 5px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  .lname-alert{
+    margin: -15px 0 5px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  .email-alert{
+    margin: -15px 0 5px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+    transform: translateY(10px);
+    opacity: 0;
+  }
+
+  .message-alert{
+    margin: -15px 0 5px;
+    font-size: 12px;
+    font-style: italic;
+    color: red;
+    transform: translateY(10px);
+    opacity: 0;
+  }
